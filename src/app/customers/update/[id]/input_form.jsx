@@ -1,4 +1,4 @@
-// import OneCustomerInfoCard from "@/app/components/one_customer_info_card.jsx";
+// import OneCustomerInfoCard from "@/app/components/one_customer_info_card";
 
 export default function InputForm({ updateCustomerFunc, customerInfo }) {
   const previous_customer_name = JSON.stringify(customerInfo[0].customer_name);

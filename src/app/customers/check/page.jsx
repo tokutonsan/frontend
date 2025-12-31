@@ -1,4 +1,4 @@
-import OneCustomerInfoCard from "@/app/components/one_customer_info_card.jsx";
+import OneCustomerInfoCard from "@/app/components/one_customer_info_card";
 
 async function fetchCustomer(id) {
   const res = await fetch(
